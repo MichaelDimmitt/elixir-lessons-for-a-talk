@@ -33,6 +33,7 @@ end
 :int.ni (IEx.Autocomplete)
 
 ## Debug this module at line 8: (did not work for me.)
+## https://elixirschool.com/en/lessons/misc/debugging
 :int.ni (IEx.Autocomplete, 8)
 
 
