@@ -1,4 +1,8 @@
-## keywords: for, and case; "return a value so they can be assigned to a variable"
+## keywords: for, if, and case; "return a value so they can be assigned to a variable"
+
+# Assign the value of an if statement to a variable.
+monkey = if(true, do: "hi")
+IO.inspect(monkey)
 
 ## Assign the value of the case statement to a variable
 ## To be able to inspect it and still return the value to the caller of the function.
